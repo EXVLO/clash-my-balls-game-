@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB8147-1DB4-4028-BE28-D552F23C91F7}|pygame_moving_circle_lesson2.pyproj|C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Server\\pygame_moving_circle_lesson2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E0AB8147-1DB4-4028-BE28-D552F23C91F7}|pygame_moving_circle_lesson2.pyproj|solutionrelative:pygame_moving_circle_lesson2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pygame_moving_circle_lesson2.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Server\\pygame_moving_circle_lesson2.py",
+              "RelativeDocumentMoniker": "pygame_moving_circle_lesson2.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Server\\pygame_moving_circle_lesson2.py",
+              "RelativeToolTip": "pygame_moving_circle_lesson2.py",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAswKkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-14T07:13:30.724Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

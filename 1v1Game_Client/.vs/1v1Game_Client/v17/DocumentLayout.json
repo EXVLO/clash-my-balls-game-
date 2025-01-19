@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A59E1C0E-2876-4D9F-9E4F-AC5C71981226}|1v1Game_Client.pyproj|C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Client\\_1v1Game_Client.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A59E1C0E-2876-4D9F-9E4F-AC5C71981226}|1v1Game_Client.pyproj|solutionrelative:_1v1Game_Client.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_1v1Game_Client.py",
+              "DocumentMoniker": "C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Client\\_1v1Game_Client.py",
+              "RelativeDocumentMoniker": "_1v1Game_Client.py",
+              "ToolTip": "C:\\Users\\sandro\\Desktop\\Code Studio\\Python\\Harbour.Space\\Assigments\\Assigment 5\\1v1Game_Client\\_1v1Game_Client.py",
+              "RelativeToolTip": "_1v1Game_Client.py",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-18T05:18:50.966Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
