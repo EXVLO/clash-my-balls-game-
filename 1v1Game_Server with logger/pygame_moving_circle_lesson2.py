@@ -4,6 +4,20 @@ import math
 import threading
 import socket
 import random
+import logging
+from logging.handlers import RotatingFileHandler
+
+# Logger Settings
+logger = logging.getLogger("RotatingLogger")
+
+logger.setLevel(logging.DEBUG)
+
+handler = RotatingFileHandler("app.log", maxBytes = 1000000, backupCount = 6)
+
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+logger.addHandler(handler)
 
 # Client (Player)
 class Client:
@@ -13,7 +27,7 @@ class Client:
 
 # Player Object
 class Circle:
-    def __init__(self, radius, x, y, vx, vy, changeVX, changeVY, color, max_vx, max_vy):
+    def __init__(self, radius, x, y, vx, vy, changeVX, changeVY, color, max_vx, max_vy, name):
         self.radius = radius
         self.x = x
         self.y = y
@@ -25,6 +39,7 @@ class Circle:
         self.max_vx = max_vx
         self.max_vy = max_vy
         self.score = 0
+        self.name = name
 
     def move(self, window_width, window_height):
         self.x += self.vx
@@ -90,12 +105,16 @@ def client_online(curr_client, player):
                 message_received = conn.recv(32).decode().strip()
                 if message_received == "UP":
                     player.key_up()
+                    logger.debug(f"{player.name} pressed key: UP")
                 elif message_received == "DOWN":
                     player.key_down()
+                    logger.debug(f"{player.name} pressed key: DOWN")
                 elif message_received == "LEFT":
                     player.key_left()
+                    logger.debug(f"{player.name} pressed key: LEFT")
                 elif message_received == "RIGHT":
                     player.key_right()
+                    logger.debug(f"{player.name} pressed key: RIGHT")
             except:
                 print(f"Client {curr_client.addr} disconnected")
                 break
@@ -125,8 +144,8 @@ pygame.display.set_caption("Server Game")
 clock = pygame.time.Clock()
 
 # Game objects
-player1 = Circle(15, 100, 50, 0, 0, 2, 2, (255, 0, 0), 12, 12)
-player2 = Circle(15, 400, 300, 0, 0, 2, 2, (0, 255, 0), 12, 12)
+player1 = Circle(15, 100, 50, 0, 0, 2, 2, (255, 0, 0), 12, 12, "Player 1")
+player2 = Circle(15, 400, 300, 0, 0, 2, 2, (0, 255, 0), 12, 12, "Player 2")
 food = Food(random.randint(15, window_width - 15), random.randint(15, window_height - 15), 10, (255, 255, 0))
 
 # Server settings
